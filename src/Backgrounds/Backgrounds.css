@@ -1,0 +1,54 @@
+.background {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.background > div {
+    aspect-ratio: 3/2;
+    border-radius: 10px;
+}
+
+#bg-0 {
+    background-image: linear-gradient(hsl(237, 100%, 73%) 0%, hsl(264, 39%, 65%) 60%);
+}
+
+#bg-1 {
+    background-image: linear-gradient(hsl(237, 100%, 73%) 0%, hsl(36, 86%, 46%) 60%, hsl(58, 79%, 80%) 100%);
+}
+
+#bg-2 {
+    background-image: linear-gradient(30deg, hsl(238, 66%, 92%) 10%, hsl(62, 95%, 69%) 80%, hsl(164, 78%, 80%) 100%);
+}
+
+#bg-3 {
+    border: 1px solid #aaa;
+}
+
+#bg-4 {
+    border: 1px solid #aaa;
+}
+
+#bg-5 {
+    border: 1px solid #aaa;
+}
+
+#bg-6 {
+    border: 1px solid #aaa;
+}
+
+#bg-7 {
+    border: 1px solid #aaa;
+}
+
+#bg-8 {
+    border: 1px solid #aaa;
+}
+
+#bg-9 {
+    border: 1px solid #aaa;
+}
+
+#bg-10 {
+    border: 1px solid #aaa;
+}
